@@ -50,10 +50,10 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/startup-class/dotfiles.git
-ln -s dotfiles/.screenrc .
-ln -s dotfiles/.bash_profile .
-ln -s dotfiles/.bashrc .
-ln -s dotfiles/.bashrc_custom .
-ln -s dotfiles/.emacs.d .
+git clone https://github.com/schepparn/setup.git
+ln -s setup/dotfiles/.screenrc .
+ln -s setup/dotfiles/.bash_profile .
+ln -s setup/dotfiles/.bashrc .
+ln -s setup/dotfiles/.bashrc_custom .
+ln -s setup/dotfiles/.emacs.d .
 
